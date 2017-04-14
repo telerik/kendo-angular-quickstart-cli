@@ -1,4 +1,6 @@
-# KendoAngular2QuickstartCli
+# Kendo UI for Angular QuickStart for Angular CLI
+
+Source code for the [Get Started tutorial](http://www.telerik.com/kendo-angular-ui/getting-started/#installation) of Kendo UI for Angular.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
 

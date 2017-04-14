@@ -5,6 +5,9 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 
+// Import the ButtonsModule...
+import { ButtonsModule } from '@progress/kendo-angular-buttons';
+
 @NgModule({
   declarations: [
     AppComponent
@@ -12,7 +15,10 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+
+    // ... and register it
+    ButtonsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
