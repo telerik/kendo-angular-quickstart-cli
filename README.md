@@ -1,30 +1,50 @@
-# Kendo UI for Angular QuickStart for Angular CLI
+# Kendo UI for Angular: QuickStart for Angular CLI
 
-Source code for the [Get Started tutorial](http://www.telerik.com/kendo-angular-ui/getting-started/#installation) of Kendo UI for Angular.
+This repository holds the source code for the article on [getting started](http://www.telerik.com/kendo-angular-ui/getting-started/#installation) with the Kendo UI for Angular suite.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
+The project is generated with the [Angular CLI tool](https://github.com/angular/angular-cli), version 1.0.0.
 
-## Development server
+## ## Table of Contents
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+* [Development Server](#development-server)
+* [Code Scaffolding](#code-scaffolding)
+* [Builds](#builds)
+* [Testing](#testing)
+    * [Unit Tests](#unit-tests)
+    * [End-to-End Tests](#end-to-end-tests)
+* [Further Help](#further-help)
 
-## Code scaffolding
+## Development Server
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
+1. Run the `ng serve` command for a development server.
 
-## Build
+1. Navigate to `http://localhost:4200/`. If you change any of the source files, the application automatically reloads.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+## Code Scaffolding
 
-## Running unit tests
+Run the `ng generate component component-name` or `ng generate directive/pipe/service/class/module` command to generate a new component.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Builds
 
-## Running end-to-end tests
+1. Run the `ng build` command to build the project. The build artifacts are stored in the `dist/` directory.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
+1. Use the `-prod` flag for a production build.
 
-## Further help
+## Testing
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+### Unit Tests
+
+Run the `ng test` command to execute the unit tests with [Karma](https://karma-runner.github.io).
+
+### End-to-End Tests
+
+1. Make sure you are serving the application through `ng serve` before running the tests.
+
+1. Run the `ng e2e` command to execute the end-to-end tests with [Protractor](http://www.protractortest.org/).
+
+## Further Help
+
+For additional support on the Angular CLI either:
+
+* Run the `ng help` command, or
+* Refer to the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
