@@ -13,7 +13,6 @@ The project is generated with the [Angular CLI tool](https://github.com/angular/
     * [Unit Tests](#unit-tests)
     * [End-to-End Tests](#end-to-end-tests)
 * [Further Help](#further-help)
-* [Contribution](#contribution)
 
 ## Development Server
 
@@ -49,12 +48,3 @@ For additional support on the Angular CLI either:
 
 * Run the `ng help` command, or
 * Refer to the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-
-## Contribution
-
-We accept contributions from the public.
-
-Before you pose your suggestions, please make sure that you:
-
-1. Read and sign the [Kendo UI for Angular Contribution License Agreement (CLA)](goo.gl/forms/dXc1RaE8le6rVZ0h1). The CLA confirms that you acknowledge the legal aspects of your contributions.
-2. Submit a Pull Request.
