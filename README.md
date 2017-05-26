@@ -4,7 +4,7 @@ This repository holds the source code for the article on [getting started](http:
 
 The project is generated with the [Angular CLI tool](https://github.com/angular/angular-cli), version 1.0.0.
 
-## ## Table of Contents
+## Table of Contents
 
 * [Development Server](#development-server)
 * [Code Scaffolding](#code-scaffolding)
