@@ -32,7 +32,6 @@ Run the `ng generate component component-name` or `ng generate directive/pipe/se
 ## Builds
 
 1. Run the `ng build` command to build the project. The build artifacts are stored in the `dist/` directory.
-
 1. Use the `-prod` flag for a production build.
 
 ## Testing
@@ -44,7 +43,6 @@ Run the `ng test` command to execute the unit tests with [Karma](https://karma-r
 ### End-to-End Tests
 
 1. Make sure you are serving the application through `ng serve` before running the tests.
-
 1. Run the `ng e2e` command to execute the end-to-end tests with [Protractor](http://www.protractortest.org/).
 
 ## Further Help
