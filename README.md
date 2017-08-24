@@ -57,7 +57,6 @@ For additional support on the Angular CLI either:
 
 |Sample Project Repository                                        |Sample Project Documentation |
 |:---                                                             |:---                         |
-|[Using Kendo UI with the Angular CLI](https://github.com/telerik/kendo-angular-quickstart-cli) |[Get Started](http://www.telerik.com/kendo-angular-ui/getting-started/)|
 |[Using Kendo UI for Angular with Angular QuickStart](https://github.com/telerik/kendo-angular-quickstart) |[Using with SystemJS](http://www.telerik.com/kendo-angular-ui/components/installation/system-js/)|
 |[Using Kendo UI for Angular with Angular Seed](https://github.com/telerik/kendo-angular-quickstart-seed)  |Not documented        |
 |[Using Kendo UI for Angular with Angular Universal](https://github.com/telerik/kendo-angular-universal-demo) |[Universal Rendering](http://www.telerik.com/kendo-angular-ui/components/framework/universal/)|
