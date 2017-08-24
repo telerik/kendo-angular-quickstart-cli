@@ -1,4 +1,4 @@
-# Kendo UI for Angular: QuickStart for Angular CLI
+# Kendo UI for Angular: Angular CLI
 
 This repository holds the source code for the article on [getting started](http://www.telerik.com/kendo-angular-ui/getting-started/#installation) with the Kendo UI for Angular suite.
 
