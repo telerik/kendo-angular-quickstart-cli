@@ -4,6 +4,14 @@ This repository holds the source code for the article on [getting started](http:
 
 The project is generated with the [Angular CLI tool](https://github.com/angular/angular-cli), version 1.0.0.
 
+## Get Started
+
+1. Clone this repository using your favorite Git client or by executing:
+
+    `git clone https://github.com/telerik/kendo-angular-quickstart-cli.git`
+1. Enter the project directory `cd kendo-angular-quickstart-cli`
+1. Run `npm install` to install the project dependencies.
+
 ## Table of Contents
 
 * [Development Server](#development-server)
@@ -15,11 +23,6 @@ The project is generated with the [Angular CLI tool](https://github.com/angular/
 * [Further Help](#further-help)
 
 ## Development Server
-
-1. Clone this repository using your favorite Git client or by executing:
-
-    `git clone https://github.com/telerik/kendo-angular-quickstart-cli.git`
-1. Run `npm install` to install the project dependencies.
 
 1. Run the `ng serve` command for a development server.
 
