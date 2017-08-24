@@ -16,8 +16,9 @@ The project is generated with the [Angular CLI tool](https://github.com/angular/
 
 ## Development Server
 
-1. Clone this repository using your favorite Git client or by running `git clone https://github.com/telerik/kendo-angular-quickstart-cli.git`
+1. Clone this repository using your favorite Git client or by executing:
 
+    `git clone https://github.com/telerik/kendo-angular-quickstart-cli.git`
 1. Run `npm install` to install the project dependencies.
 
 1. Run the `ng serve` command for a development server.
