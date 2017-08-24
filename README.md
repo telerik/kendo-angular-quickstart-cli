@@ -4,11 +4,16 @@ This repository holds the source code for the article on [getting started](http:
 
 The project is generated with the [Angular CLI tool](https://github.com/angular/angular-cli), version 1.0.0.
 
+## Get Started
+
+1. Clone this repository by using your favorite Git client or by executing `git clone https://github.com/telerik/kendo-angular-quickstart-cli.git`.
+1. Enter the project directory by running `cd kendo-angular-quickstart-cli`.
+1. Run `npm install` to install the project dependencies.
+
 ## Table of Contents
 
-* [Creating New Projects](#creating-new-projects)
-    * [Development Server](#development-server)
-    * [Code Scaffolding](#code-scaffolding)
+* [Development Server](#development-server)
+* [Code Scaffolding](#code-scaffolding)
 * [Builds](#builds)
 * [Testing](#testing)
     * [Unit Tests](#unit-tests)
@@ -16,16 +21,12 @@ The project is generated with the [Angular CLI tool](https://github.com/angular/
 * [Further Help](#further-help)
 * [Other Kendo UI Sample Projects for Angular](#other-kendo-ui-sample-projects-for-angular)
 
-## Creating New Projects
+## Development Server
 
-### Development Server
-
-1. Clone this repository by using your favorite Git client or by executing `git clone https://github.com/telerik/kendo-angular-quickstart-cli.git`.
-1. Run the `npm install` command to install the project dependencies.
 1. Run the `ng serve` command for a development server.
 1. Navigate to `http://localhost:4200/`. If you change any of the source files, the application automatically reloads.
 
-### Code Scaffolding
+## Code Scaffolding
 
 Run the `ng generate component component-name` or `ng generate directive/pipe/service/class/module` command to generate a new component.
 
