@@ -2,7 +2,7 @@
 
 This repository holds the source code for the article on [getting started](http://www.telerik.com/kendo-angular-ui/getting-started/#installation) with the Kendo UI for Angular suite.
 
-The project is generated with the [Angular CLI tool](https://github.com/angular/angular-cli), version 1.0.0.
+The project is generated with the [Angular CLI tool](https://github.com/angular/angular-cli).
 
 ## Get Started
 
