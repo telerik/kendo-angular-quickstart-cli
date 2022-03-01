@@ -13,7 +13,7 @@ export const products = [
     Category: {
       CategoryID: 1,
       CategoryName: "Beverages",
-      Description: "Soft drinks, coffees, teas, beers, and ales"
+      Description: "Soft Fdrinks, coffees, teas, beers, and ales"
     }
   },
   {
