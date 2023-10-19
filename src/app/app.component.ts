@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { categories } from './data.categories';
+import { Category, categories } from './data.categories';
 import { GridDataResult, PageChangeEvent } from '@progress/kendo-angular-grid';
 import { SortDescriptor } from '@progress/kendo-data-query';
 // import { FilterDescriptor } from "@progress/kendo-data-query";
@@ -14,11 +14,11 @@ import { Observable } from 'rxjs';
 })
 export class AppComponent {
     // used for the DropDownList
-    public dropDownItems = categories;
-    public defaultItem = { text: 'Filter by Category', value: null };
+    public dropDownItems: Category[] = categories;
+    public defaultItem: Category = { text: 'Filter by Category', value: null };
 
     // used for the Grid
-    public gridItems!: Observable<GridDataResult>;
+    public gridItems: Observable<GridDataResult> | undefined;
     public pageSize: number = 10;
     public skip: number = 0;
     public sortDescriptor: SortDescriptor[] = [];
@@ -43,7 +43,7 @@ export class AppComponent {
         this.loadGridItems();
     }
 
-    public handleFilterChange(item: { text: string; value: number | null }): void {
+    public handleFilterChange(item: Category): void {
         this.filterTerm = item.value;
         this.skip = 0;
         this.loadGridItems();
