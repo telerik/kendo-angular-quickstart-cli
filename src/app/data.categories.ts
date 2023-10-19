@@ -1,4 +1,9 @@
-export const categories: Array<{ text: string; value: number }> = [
+export class Category {
+    public text: string = '';
+    public value: number | null = 0;
+}
+
+export const categories: Category[] = [
     { text: 'Beverages', value: 1 },
     { text: 'Condiments', value: 2 },
     { text: 'Confections', value: 3 },
