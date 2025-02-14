@@ -1,28 +1,29 @@
 import { Component } from '@angular/core';
-import { Category, categories } from './data.categories';
-import { GridDataResult, PageChangeEvent } from '@progress/kendo-angular-grid';
+import { KENDO_DATEINPUTS } from '@progress/kendo-angular-dateinputs';
+import { GridDataResult, KENDO_GRID, PageChangeEvent } from '@progress/kendo-angular-grid';
 import { SortDescriptor } from '@progress/kendo-data-query';
-// import { FilterDescriptor } from "@progress/kendo-data-query";
-import { ProductService } from './product.service';
 import { Observable } from 'rxjs';
+import { categories, Category } from './data.categories';
+import { ProductService } from './product.service';
+import { CommonModule } from '@angular/common';
+import { KENDO_DROPDOWNS } from '@progress/kendo-angular-dropdowns';
 
 @Component({
     selector: 'app-root',
+    imports: [CommonModule, KENDO_DATEINPUTS, KENDO_GRID, KENDO_DROPDOWNS],
+    providers: [ProductService],
     templateUrl: './app.component.html',
-    styleUrls: ['./app.component.css'],
-    providers: [ProductService]
+    styleUrl: './app.component.css'
 })
 export class AppComponent {
-    // used for the DropDownList
+    public title = "Kendo UI for Angular Quick Start";
     public dropDownItems: Category[] = categories;
     public defaultItem: Category = { text: 'Filter by Category', value: null };
 
-    // used for the Grid
     public gridItems: Observable<GridDataResult> | undefined;
     public pageSize: number = 10;
     public skip: number = 0;
     public sortDescriptor: SortDescriptor[] = [];
-    // public filterDescriptor: FilterDescriptor[] = [];
     public filterTerm: number | null = null;
 
     constructor(private service: ProductService) {
