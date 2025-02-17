@@ -1,49 +1,59 @@
-# Kendo UI for Angular: Angular CLI
+# Getting Started with Angular CLI and Kendo UI for Angular
 
-This project is part of the [Getting Started guide](https://www.telerik.com/kendo-angular-ui/components/getting-started/) in the [Kendo UI for Angular documentation](https://www.telerik.com/kendo-angular-ui/components/). The app was generated with the [Angular CLI](https://github.com/angular/angular-cli).
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.7.
 
-## Install the app
+## Development server
 
-1. Clone this repository with your Git client or by executing
+To start a local development server, run:
 
-    `git clone https://github.com/telerik/kendo-angular-getting-started.git`
-1. Enter the project directory, e.g. `cd kendo-angular-getting-started`
-1. Run `npm install` to install the project dependencies.
+```bash
+ng serve
+```
 
-## Table of Contents
+Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
-* [Development Server](#development-server)
-* [Code Scaffolding](#code-scaffolding)
-* [Build](#build)
-* [Angular CLI Help](#angular-cli-help)
-* [Other Sample Projects with Kendo UI for Angular](#other-sample-projects-with-kendo-ui-for-angular)
+## Code scaffolding
 
-## Development Server
+Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+```bash
+ng generate component component-name
+```
 
-## Code Scaffolding
+For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```bash
+ng generate --help
+```
 
-## Build
+## Building
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+To build the project run:
 
-## Angular CLI Help
+```bash
+ng build
+```
 
-For additional support on the Angular CLI:
+This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
 
-* Run the `ng help` command, or
-* Refer to the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Running unit tests
 
-## Other Sample Projects with Kendo UI for Angular
+To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
 
-| Project Repository | Documentation |
-|:--- |:--- |
-| [Kendo UI for Angular with Angular QuickStart](https://github.com/telerik/kendo-angular-quickstart) | [Using with SystemJS](http://www.telerik.com/kendo-angular-ui/components/installation/system-js/) |
-| [Kendo UI for Angular with Angular Seed](https://github.com/telerik/kendo-angular-quickstart-seed) | Not documented |
-| [Kendo UI for Angular with Angular Universal](https://github.com/telerik/kendo-angular-universal-demo) | [Universal Rendering](http://www.telerik.com/kendo-angular-ui/components/framework/universal/) |
-| [Kendo UI for Angular with UI for ASP.NET Core](https://github.com/telerik/kendo-angular-demo-aspnetcore-data/tree/master) |[UI for ASP.NET Core Integration](https://www.telerik.com/kendo-angular-ui/components/data-query/mvc-integration/) |
-| [Kendo UI for Angular with NativeScript](https://github.com/telerik/ng2-dashboard) | Not documented |
-| [Translating the custom messages of the Kendo UI components for Angular](https://github.com/telerik/kendo-angular-i18n-sample) | [Translation of Messages](http://www.telerik.com/kendo-angular-ui/components/localization/messages/)|
+```bash
+ng test
+```
+
+## Running end-to-end tests
+
+For end-to-end (e2e) testing, run:
+
+```bash
+ng e2e
+```
+
+Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+
+## Additional Resources
+
+For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.

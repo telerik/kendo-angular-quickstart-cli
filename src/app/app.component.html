@@ -1,16 +1,16 @@
-<h1>Hello Kendo UI for Angular!</h1>
-
-<p>
-    <kendo-dropdownlist
-        [data]="dropDownItems"
-        textField="text"
-        valueField="value"
-        [defaultItem]="defaultItem"
-        (valueChange)="handleFilterChange($event)"
-		[style.width.px]="170"
-    >
-    </kendo-dropdownlist>
-</p>
+<h1>{{title}}</h1>
+<kendo-calendar></kendo-calendar>
+<hr />
+<kendo-dropdownlist
+    [data]="dropDownItems"
+    textField="text"
+    valueField="value"
+    [defaultItem]="defaultItem"
+    (valueChange)="handleFilterChange($event)"
+    [style.width.px]="170"
+>
+</kendo-dropdownlist>
+<hr />
 
 <kendo-grid
     [data]="(gridItems | async)!"
